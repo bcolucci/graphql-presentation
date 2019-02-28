@@ -24,9 +24,9 @@ GraphQL is a **language specification**, not a lib/framework. There are some imp
 
 ## Three types only
 
-* Query -> Read
-* Mutation -> Create, Update and Delete
-* Subscription -> Way to push data from server to client
+* @color[orange](Query) -> Read
+* @color[orange](Mutation) -> Create, Update and Delete
+* _@color[orange](Subscription) -> Way to push data from server to client_
 
 ---
 
