@@ -3,3 +3,7 @@
   font-size: 0.4em;
   line-height: 1em;
 }
+
+.reveal pre code {
+  min-height: 350px;
+}
