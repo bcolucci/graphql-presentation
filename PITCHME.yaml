@@ -1,2 +1,3 @@
 theme: beige
 code-line-numbers: true
+theme-override: style.css
