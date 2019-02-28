@@ -17,9 +17,8 @@ GraphQL is a **language specification**, not a lib/framework. There are some imp
 
 @color[orange](We should not compare them, because the usage is different, even if there are some usage intersections.)
 
-@size[0.8em](REST is an architectural style for creating Web services when GraphQL is mostly used as a BFF and/or to unify multiple sources of data for multiple targeted devices.)
-
-@size[0.8em](You could have, for example, a GraphQL server that exposes data from REST APIs, from an ElasticSearch cluster, from a MySQL database...)
+* @size[0.8em](REST is an architectural style for creating Web services;)
+* @size[0.8em](GraphQL is mostly used as a BFF to unify multiple datasources for multiple targeted devices.)
 
 ---
 
