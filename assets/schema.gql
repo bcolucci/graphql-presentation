@@ -1,6 +1,5 @@
-type User { [...] }
-type Vote { [...] }
-enum Role { [...] }
+type User { ... }
+enum Role { ... }
 
 type Query {
   users: [User!]!

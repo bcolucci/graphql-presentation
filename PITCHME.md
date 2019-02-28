@@ -26,26 +26,26 @@ GraphQL is a **language specification**, not a lib/framework. There are some imp
 
 * @color[#e71e60](Query) -> Read
 * @color[#e71e60](Mutation) -> Create, Update and Delete
-* [ _@color[#e71e60](Subscription) -> Way to push data from server to client_ ]
+* _@color[#e71e60](Subscription) -> Notify client_
 
 ---
 
 ## Types
 
 * @color[#e71e60](Operations) are **root types** (Query, Mutation and Subscription)
-* @color[#e71e60](Scalars): Int, Float, String, Boolean [_, ID_]
+* @color[#e71e60](Scalars): Int, Float, String, Boolean _, ID_
 * @color[#e71e60](Enumerations)
-* @color[#e71e60](Lists) (e.g. _users:[User]_)
-* @color[#e71e60](Customs)
+* @color[#e71e60](Lists)
+* @color[#e71e60](Our own types)
 
 ---?code=assets/types.gql
 
 ---
 
-## Tow things to do only
+## Server: tow things only to do
 
 1. Defining the @color[#e71e60](schema)
-2. Defining the @color[#e71e60](resolvers)
+2. Defining the @color[#e71e60](resolvers): Layers between the schema and the processes (where and how to read/write...)
 
 ---?code=assets/schema.gql
 

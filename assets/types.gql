@@ -1,11 +1,10 @@
 type User {
-  id: ID!
   email: String!
+  salt: String!
   password: String!
   role: Role!
   deleted: Boolean!
   friends: [User!]!
-  checkPassword(raw: String!): Boolean
 }
 
 enum Role {
