@@ -6,11 +6,6 @@ type Query {
   user(id: ID!): User
 }
 
-type Error {
-  code: String!
-  message: String!
-}
-
 type Mutation {
-  updatePassword(userId: ID!, rawPassword: String!): Error
+  updatePassword(userId: ID!, rawPassword: String!)
 }

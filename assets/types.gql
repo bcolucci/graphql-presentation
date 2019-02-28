@@ -1,3 +1,8 @@
+enum Role {
+  ADMIN
+  MEMBER
+}
+
 type User {
   email: String!
   salt: String!
@@ -5,9 +10,4 @@ type User {
   role: Role!
   deleted: Boolean!
   friends: [User!]!
-}
-
-enum Role {
-  ADMIN
-  MEMBER
 }
