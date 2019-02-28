@@ -38,8 +38,6 @@ GraphQL is a **language specification**, not a lib/framework. There are some imp
 * Lists (e.g. _users:[User]_)
 * Customs
 
----?code=assets/User.gql&lang=js
-
----
+---?code=assets/User.gql
 
 ## The End :)
