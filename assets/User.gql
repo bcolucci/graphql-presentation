@@ -1,0 +1,18 @@
+type User {
+  id: ID!
+  email: String!
+  password: String!
+  role: Role!
+  deleted: Boolean!
+  votes: [Vote!]!
+}
+
+type Vote {
+  [...]
+  user: User!
+}
+
+enum Role {
+  ADMIN
+  MEMBER
+}
