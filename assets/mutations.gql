@@ -1,0 +1,5 @@
+{
+  updatePassword(email: "brice.colucci@logmein.com", rawPassword: "test1234") {
+    password
+  }
+}

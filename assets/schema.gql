@@ -7,5 +7,5 @@ type Query {
 }
 
 type Mutation {
-  updatePassword(userId: ID!, rawPassword: String!)
+  updatePassword(email: String!, rawPassword: String!): User
 }

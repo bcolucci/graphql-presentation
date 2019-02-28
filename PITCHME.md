@@ -55,6 +55,10 @@ GraphQL is a **language specification**, not a lib/framework. There are some imp
 
 ---?code=assets/mutations.gql
 
+---?code=assets/mutations.json
+
+---?code=assets/interfaces.gql
+
 ---
 
 ## Let's code!
