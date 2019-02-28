@@ -4,12 +4,8 @@ type User {
   password: String!
   role: Role!
   deleted: Boolean!
-  votes: [Vote!]!
-}
-
-type Vote {
-  [...]
-  user: User!
+  friends: [User!]!
+  checkPassword(raw: String!): Boolean
 }
 
 enum Role {

@@ -1,0 +1,17 @@
+type User { [...] }
+type Vote { [...] }
+enum Role { [...] }
+
+type Query {
+  users: [User!]!
+  user(id: ID!): User
+}
+
+type Error {
+  code: String!
+  message: String!
+}
+
+type Mutation {
+  updatePassword(userId: ID!, rawPassword: String!): Error
+}

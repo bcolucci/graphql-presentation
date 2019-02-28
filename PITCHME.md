@@ -15,7 +15,7 @@ GraphQL is a **language specification**, not a lib/framework. There are some imp
 
 ## GraphQL vs REST
 
-@color[orange](We should not compare them, because the usage is different, even if there are some usage intersections.)
+@color[#e71e60](We should not compare them, because the usage is different, even if there are some usage intersections.)
 
 * @size[0.8em](REST is an architectural style for creating Web services)
 * @size[0.8em](GraphQL is mostly used as a BFF to unify multiple datasources for multiple targeted devices.)
@@ -24,20 +24,37 @@ GraphQL is a **language specification**, not a lib/framework. There are some imp
 
 ## Three operations only
 
-* @color[orange](Query) -> Read
-* @color[orange](Mutation) -> Create, Update and Delete
-* [ _@color[orange](Subscription) -> Way to push data from server to client_ ]
+* @color[#e71e60](Query) -> Read
+* @color[#e71e60](Mutation) -> Create, Update and Delete
+* [ _@color[#e71e60](Subscription) -> Way to push data from server to client_ ]
 
 ---
 
 ## Types
 
-* Operations are **root types** (Query, Mutation and Subscription)
-* Scalars: Int, Float, String, Boolean [_, ID_]
-* Enumerations
-* Lists (e.g. _users:[User]_)
-* Customs
+* @color[#e71e60](Operations) are **root types** (Query, Mutation and Subscription)
+* @color[#e71e60](Scalars): Int, Float, String, Boolean [_, ID_]
+* @color[#e71e60](Enumerations)
+* @color[#e71e60](Lists) (e.g. _users:[User]_)
+* @color[#e71e60](Customs)
 
----?code=assets/User.gql
+---?code=assets/types.gql
 
-## The End :)
+---
+
+## Tow things to do only
+
+1. Defining the @color[#e71e60](schema)
+2. Defining the @color[#e71e60](resolvers)
+
+---?code=assets/schema.gql
+
+---?code=assets/queries.gql
+
+---?code=assets/queries.json
+
+---?code=assets/mutations.gql
+
+---
+
+## Let's code!
