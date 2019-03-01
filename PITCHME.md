@@ -68,3 +68,23 @@ GraphQL is a **language specification**, not a lib/framework. There are some imp
 Create a **GraphQL server** which serves data from a **MySQL database** and a **in-memory map**.
 
 Then create a **React app** which shows a dropdown and a button to trigger a mutation.
+
+---
+
+---?code=assets/pullandrunsql.sh&title=Get some SQL data
+
+---?code=assets/project1.sh
+
+---?code=assets/package1.json
+
+---?code=assets/project2.sh
+
+---?code=assets/package2.json
+
+---?code=assets/index1.js&title=The index page
+
+---?code=assets/console1.txt&title=Let's run it
+
+---
+
+![Logo](assets/screen1.png)
