@@ -1,4 +1,4 @@
 theme: night
-highlight: tomorrow
+highlight: darcula
 code-line-numbers: true
 theme-override: style.css
