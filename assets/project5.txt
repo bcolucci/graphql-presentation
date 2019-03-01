@@ -1,4 +1,4 @@
-$ npm i --save concurrently
+$ npm install --save concurrently
 
 [...]
 + concurrently@4.1.0

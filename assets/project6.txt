@@ -1,0 +1,6 @@
+$ npm install --save mysql2
+
+[...]
++ mysql2@1.6.5
+added 12 packages from 16 contributors and audited 7008 packages in 7.004s
+found 0 vulnerabilities

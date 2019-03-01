@@ -93,6 +93,8 @@ Then create a **React app** which shows a dropdown and a button to trigger a mut
 
 ---?code=assets/project4.txt&title=Install Express and Apollo
 
+---?code=assets/server1.js&title=Basic server
+
 ---?code=assets/project5.txt
 
 ---?code=assets/package2.json
@@ -100,3 +102,7 @@ Then create a **React app** which shows a dropdown and a button to trigger a mut
 ---
 
 ![Logo](assets/screen2.png)
+
+---?code=assets/project6.txt
+
+---?code=assets/mysqlConnection.js&title=Mysql Connection
