@@ -129,6 +129,8 @@ Then create a **React app** which shows a dropdown and a button to trigger a mut
 
 ![Logo](assets/screen5.png)
 
+---?code=assets/resolvers3.js
+
 ---
 
 ![Logo](assets/screen6.png)
