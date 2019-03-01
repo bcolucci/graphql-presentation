@@ -144,3 +144,15 @@ Then create a **React app** which shows a dropdown and a button to trigger a mut
 ---
 
 ![Logo](assets/screen8.png)
+
+---?code=assets/project7.txt
+
+---?code=assets/next.config.js&title=Manage CSS
+
+---?code=assets/_app1.js&title=Root app override
+
+---?code=assets/project8.txt
+
+---?code=assets/withApollo1.js&title=Apollo HOC
+
+---?code=assets/_app2.js&title=Inject Apollo client
