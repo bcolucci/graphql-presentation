@@ -35,10 +35,10 @@ GraphQL is a **language specification**, not a lib/framework. There are some imp
 ## Types
 
 * @color[#e71e60](Operations) are **root types** (Query, Mutation and Subscription)
-* @color[#e71e60](Scalars): Int, Float, String, Boolean _, ID_
+* @color[#e71e60](Scalars): Int, Float, String, Boolean and ID
 * @color[#e71e60](Enumerations)
 * @color[#e71e60](Lists)
-* @color[#e71e60](Our own types)
+* **@color[#e71e60](Our own types)**
 
 ---?code=assets/types.gql
 
@@ -51,13 +51,23 @@ GraphQL is a **language specification**, not a lib/framework. There are some imp
 
 ---?code=assets/schema.gql
 
+## Query example
+
 ---?code=assets/queries.gql
+
+## Query response
 
 ---?code=assets/queries.json
 
+## Mutation example
+
 ---?code=assets/mutations.gql
 
+## Mutation response
+
 ---?code=assets/mutations.json
+
+## Interfaces
 
 ---?code=assets/interfaces.gql
 
