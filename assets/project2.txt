@@ -1,0 +1,9 @@
+$ npm install --save next react react-dom
+> fsevents@1.2.7 install /Users/bcolucci/src/gql/src/node_modules/fsevents
+> node install
+[...]
++ react-dom@16.8.3
++ react@16.8.3
++ next@8.0.3
+added 667 packages from 306 contributors and audited 6464 packages in 21.548s
+found 0 vulnerabilities

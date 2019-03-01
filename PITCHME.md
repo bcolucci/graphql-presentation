@@ -69,22 +69,19 @@ Create a **GraphQL server** which serves data from a **MySQL database** and a **
 
 Then create a **React app** which shows a dropdown and a button to trigger a mutation.
 
----
-
 ---?code=assets/pullandrunsql.sh&title=Get some SQL data
 
----?code=assets/project1.sh&title=Init the project
+---?code=assets/project1.txt&title=Init the project
 
 ---?code=assets/package1.json
 
----?code=assets/project2.sh&title=Install next.js and React
+---?code=assets/project2.txt&title=Install next.js and React
 
-<!-- ---?code=assets/package2.json -->
-@code[json](assets/package2.json)
+---?code=assets/package2.json
 
 ---?code=assets/index1.js&title=The index page
 
----?code=assets/console1.txt&title=Let's run it
+---?code=assets/project3.txt&title=Let's run it
 
 ---
 

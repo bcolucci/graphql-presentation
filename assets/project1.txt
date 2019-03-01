@@ -1,0 +1,17 @@
+$ mkdir src; cd src
+$ npm init --force
+npm WARN using --force I sure hope you know what you are doing.
+Wrote to /Users/bcolucci/src/gql/src/package.json:
+
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
