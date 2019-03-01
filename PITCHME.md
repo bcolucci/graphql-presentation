@@ -71,13 +71,15 @@ Then create a **React app** which shows a dropdown and a button to trigger a mut
 
 ---?code=assets/pullandrunsql.sh&title=Get some SQL data
 
----?code=assets/project1.txt&title=Init the project
+---
 
----?code=assets/package1.json
+![MySQL Schema](https://dev.mysql.com/doc/employee/en/images/employees-schema.png)
+
+---?code=assets/project1.txt&title=Init the project
 
 ---?code=assets/project2.txt&title=Install next.js and React
 
----?code=assets/package2.json
+---?code=assets/package1.json
 
 ---?code=assets/index1.js&title=The index page
 
@@ -86,3 +88,4 @@ Then create a **React app** which shows a dropdown and a button to trigger a mut
 ---
 
 ![Logo](assets/screen1.png)
+
