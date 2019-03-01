@@ -71,9 +71,7 @@ Then create a **React app** which shows a dropdown and a button to trigger a mut
 
 ---?code=assets/pullandrunsql.sh&title=Get some SQL data
 
----
-
-![MySQL Schema](assets/employees-schema.png)
+---?image=assets/employees-schema.png&title=Schema
 
 ---?code=assets/project1.txt&title=Init the project
 
@@ -85,9 +83,7 @@ Then create a **React app** which shows a dropdown and a button to trigger a mut
 
 ---?code=assets/project3.txt&title=Let's run it
 
----
-
-![Logo](assets/screen1.png)
+---?image=assets/screen1.png&title=UI (1)
 
 ---?code=assets/schema2.gql&title=Schema (1)
 
@@ -99,9 +95,7 @@ Then create a **React app** which shows a dropdown and a button to trigger a mut
 
 ---?code=assets/package2.json
 
----
-
-![Logo](assets/screen2.png)
+---?image=assets/screen2.png&title=Server (1)
 
 ---?code=assets/project6.txt
 
@@ -111,39 +105,27 @@ Then create a **React app** which shows a dropdown and a button to trigger a mut
 
 ---?code=assets/server2.js
 
----
-
-![Logo](assets/screen3.png)
+---?image=assets/screen3.png&title=Query (1)
 
 ---?code=assets/schema3.gql
 
 ---?code=assets/resolvers2.js
 
----
-
-![Logo](assets/screen4.png)
+---?image=assets/screen4.png&title=Query (2)
 
 ---?code=assets/schema4.gql
 
 ---?code=assets/resolvers3.js
 
----
+---?image=assets/screen5.png&title=Query (3)
 
-![Logo](assets/screen5.png)
+---?image=assets/screen6.png&title=Mutation
 
----
-
-![Logo](assets/screen6.png)
-
----
-
-![Logo](assets/screen7.png)
+---?image=assets/screen7.png&title=Query (4)
 
 ---?code=assets/resolvers4.js
 
----
-
-![Logo](assets/screen8.png)
+---?image=assets/screen8.png&title=Query (5)
 
 ---?code=assets/project7.txt
 
@@ -161,6 +143,4 @@ Then create a **React app** which shows a dropdown and a button to trigger a mut
 
 ---?code=assets/EmployeesDropdown1.js
 
----
-
-![Logo](assets/screen9.png)
+---?image=assets/screen9.png&title=UI (2)
