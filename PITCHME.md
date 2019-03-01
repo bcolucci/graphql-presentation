@@ -49,7 +49,7 @@ GraphQL is a **language specification**, not a lib/framework. There are some imp
 1. Defining the @color[#e71e60](schema)
 2. Defining the @color[#e71e60](resolvers): Layer between the schema and data.
 
----?code=assets/schema.gql&title=Schema example
+---?code=assets/schema1.gql&title=Schema example
 
 ---?code=assets/queries.gql&title=Query example
 
@@ -89,6 +89,6 @@ Then create a **React app** which shows a dropdown and a button to trigger a mut
 
 ![Logo](assets/screen1.png)
 
----?code=assets/schema.gql&title=Schema (1)
+---?code=assets/schema2.gql&title=Schema (1)
 
 ---?code=assets/project4.txt&title=Install Express and Apollo
