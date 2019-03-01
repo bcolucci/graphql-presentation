@@ -114,3 +114,25 @@ Then create a **React app** which shows a dropdown and a button to trigger a mut
 ---
 
 ![Logo](assets/screen3.png)
+
+---?code=assets/schema3.gql
+
+---?code=assets/resolvers2.js
+
+---
+
+![Logo](assets/screen4.png)
+
+---?code=assets/schema4.gql
+
+---
+
+![Logo](assets/screen5.png)
+
+---
+
+![Logo](assets/screen6.png)
+
+---
+
+![Logo](assets/screen7.png)

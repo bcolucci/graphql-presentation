@@ -1,0 +1,10 @@
+[...]
+
+type Employee {
+  [...]
+  views: Int!
+}
+
+type Mutation {
+  incViews(emp_no: Int!): Int!
+}

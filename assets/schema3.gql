@@ -1,0 +1,6 @@
+[...]
+
+type Employee {
+  [...]
+  full_name: String!
+}
