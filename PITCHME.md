@@ -147,7 +147,7 @@ Then create a **React app** which shows a dropdown and a button to trigger a mut
 
 ---?code=assets/project7.txt
 
----?code=assets/next.config.js&title=Manage CSS
+---?code=assets/next.config.js&lang=js&title=Manage CSS
 
 ---?code=assets/_app1.js&title=Root app override
 

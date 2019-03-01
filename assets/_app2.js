@@ -5,7 +5,7 @@
 import { ApolloProvider } from 'react-apollo'
 import withApollo from '../lib/withApollo'
 
-export default class extends App {
+class MyApp extends App {
   render () {
     const { /* [...] */ apollo } = this.props
     return (
@@ -17,3 +17,5 @@ export default class extends App {
     )
   }
 }
+
+export default withApollo(MyApp)
