@@ -92,3 +92,11 @@ Then create a **React app** which shows a dropdown and a button to trigger a mut
 ---?code=assets/schema2.gql&title=Schema (1)
 
 ---?code=assets/project4.txt&title=Install Express and Apollo
+
+---?code=assets/project5.txt
+
+---?code=assets/package2.json
+
+---
+
+![Logo](assets/screen2.png)

@@ -1,0 +1,6 @@
+$ npm i --save concurrently
+
+[...]
++ concurrently@4.1.0
+added 53 packages from 21 contributors and audited 6992 packages in 8.098s
+found 0 vulnerabilities
