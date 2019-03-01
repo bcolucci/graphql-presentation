@@ -73,7 +73,7 @@ Then create a **React app** which shows a dropdown and a button to trigger a mut
 
 ---
 
-![MySQL Schema](https://dev.mysql.com/doc/employee/en/images/employees-schema.png)
+![MySQL Schema](assets/employees-schema.png)
 
 ---?code=assets/project1.txt&title=Init the project
 
