@@ -71,7 +71,7 @@ Then create a **React app** which shows a dropdown and a button to trigger a mut
 
 ---?code=assets/pullandrunsql.sh&title=Get some SQL data
 
----?image=assets/employees-schema.png&size=80%&title=Schema
+---?image=assets/employees-schema.png&size=80% 80%&title=Schema
 
 ---?code=assets/project1.txt&title=Init the project
 
@@ -83,7 +83,7 @@ Then create a **React app** which shows a dropdown and a button to trigger a mut
 
 ---?code=assets/project3.txt&title=Let's run it
 
----?image=assets/screen1.png&size=80%&title=UI (1)
+---?image=assets/screen1.png&size=80% 80%&title=UI (1)
 
 ---?code=assets/schema2.gql&title=Schema (1)
 
@@ -95,7 +95,7 @@ Then create a **React app** which shows a dropdown and a button to trigger a mut
 
 ---?code=assets/package2.json
 
----?image=assets/screen2.png&size=80%&title=Server (1)
+---?image=assets/screen2.png&size=80% 80%&title=Server (1)
 
 ---?code=assets/project6.txt
 
@@ -105,27 +105,27 @@ Then create a **React app** which shows a dropdown and a button to trigger a mut
 
 ---?code=assets/server2.js
 
----?image=assets/screen3.png&size=80%&title=Query (1)
+---?image=assets/screen3.png&size=80% 80%&title=Query (1)
 
 ---?code=assets/schema3.gql
 
 ---?code=assets/resolvers2.js
 
----?image=assets/screen4.png&size=80%&title=Query (2)
+---?image=assets/screen4.png&size=80% 80%&title=Query (2)
 
 ---?code=assets/schema4.gql
 
 ---?code=assets/resolvers3.js
 
----?image=assets/screen5.png&size=80%&title=Query (3)
+---?image=assets/screen5.png&size=80% 80%&title=Query (3)
 
----?image=assets/screen6.png&size=80%&title=Mutation
+---?image=assets/screen6.png&size=80% 80%&title=Mutation
 
----?image=assets/screen7.png&size=80%&title=Query (4)
+---?image=assets/screen7.png&size=80% 80%&title=Query (4)
 
 ---?code=assets/resolvers4.js
 
----?image=assets/screen8.png&size=80%&title=Query (5)
+---?image=assets/screen8.png&size=80% 80%&title=Query (5)
 
 ---?code=assets/project7.txt
 
@@ -143,4 +143,4 @@ Then create a **React app** which shows a dropdown and a button to trigger a mut
 
 ---?code=assets/EmployeesDropdown1.js
 
----?image=assets/screen9.png&size=80%&title=UI (2)
+---?image=assets/screen9.png&size=80% 80%&title=UI (2)
