@@ -1,7 +1,12 @@
-users {
-  email
-  role
-  friends {
+query {
+  users {
+    email
+    role
+    friends {
+      email
+    }
+  }
+  johndoe: user(email: "john.doe@logmein.com") {
     email
   }
 }

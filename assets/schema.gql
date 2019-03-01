@@ -3,7 +3,7 @@ enum Role { ... }
 
 type Query {
   users: [User!]!
-  user(id: ID!): User
+  user(email: String!): User
 }
 
 type Mutation {

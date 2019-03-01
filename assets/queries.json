@@ -1,16 +1,19 @@
 {
-  "users": [
-    {
-      "email": "brice.colucci@logmein.com",
-      "role": "ADMIN",
-      "friends": [
-        {
-          "email": "emiliaclarke@youcandream.com"
-        },
-        {
-          "email": "n.portman@youcandream.com"
-        }
-      ]
-    }
-  ]
+  "data": {
+    "users": [
+      {
+        "email": "brice.colucci@logmein.com",
+        "role": "ADMIN",
+        "friends": [
+          {
+            "email": "emiliaclarke@youcandream.com"
+          },
+          {
+            "email": "n.portman@youcandream.com"
+          }
+        ]
+      }
+    ],
+    "johndoe": null
+  }
 }
