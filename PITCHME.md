@@ -156,3 +156,7 @@ Then create a **React app** which shows a dropdown and a button to trigger a mut
 ---?code=assets/withApollo1.js&title=Apollo HOC
 
 ---?code=assets/_app2.js&title=Inject Apollo client
+
+---?code=assets/index2.js
+
+---?code=assets/EmployeeDropdown1.js
