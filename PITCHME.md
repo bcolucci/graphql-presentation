@@ -1,7 +1,7 @@
 
 ## GraphQL
 
-@size[0.5em]((and an integration example with React))
+@size[0.5em](... and an integration example with React)
 
 ---
 
