@@ -1,4 +1,5 @@
 $ npm install --save next react react-dom
+
 > fsevents@1.2.7 install /Users/bcolucci/src/gql/src/node_modules/fsevents
 > node install
 [...]

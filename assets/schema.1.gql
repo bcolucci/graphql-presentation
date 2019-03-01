@@ -1,0 +1,21 @@
+enum Gender {
+  M
+  F
+}
+
+type Title {
+  title: String!
+  from_date: String!
+  to_date: String!
+}
+
+type Employee {
+  emp_no: Int!
+  birth_date: String!
+  first_name: String!
+  full_name: String!
+  last_name: String!
+  gender: Gender!
+  hire_date: String!
+  title: Title
+}
