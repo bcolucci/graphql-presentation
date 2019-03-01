@@ -106,3 +106,11 @@ Then create a **React app** which shows a dropdown and a button to trigger a mut
 ---?code=assets/project6.txt
 
 ---?code=assets/mysqlConnection.js&title=Mysql Connection
+
+---?code=assets/resolvers1.js
+
+---?code=assets/server2.js
+
+---
+
+![Logo](assets/screen3.png)

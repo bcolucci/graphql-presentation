@@ -19,3 +19,7 @@ type Employee {
   hire_date: String!
   title: Title
 }
+
+type Query {
+  employees: [Employee!]!
+}
