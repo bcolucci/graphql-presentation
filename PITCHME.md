@@ -125,11 +125,11 @@ Then create a **React app** which shows a dropdown and a button to trigger a mut
 
 ---?code=assets/schema4.gql
 
+---?code=assets/resolvers3.js
+
 ---
 
 ![Logo](assets/screen5.png)
-
----?code=assets/resolvers3.js
 
 ---
 
