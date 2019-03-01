@@ -1,3 +1,4 @@
-theme: beige
+theme: night
+highlight: tomorrow
 code-line-numbers: true
 theme-override: style.css
