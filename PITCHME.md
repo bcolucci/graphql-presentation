@@ -40,7 +40,7 @@ GraphQL is a **language specification**, not a lib/framework. There are some imp
 * @color[#e71e60](Lists)
 * **@color[#e71e60](Our own types)**
 
----?code=assets/types.gql
+---?code=assets/gql/types.gql
 
 ---
 
@@ -49,21 +49,21 @@ GraphQL is a **language specification**, not a lib/framework. There are some imp
 1. Defining the @color[#e71e60](schema)
 2. Defining the @color[#e71e60](resolvers): Layer between the schema and data.
 
----?code=assets/schema1.gql&title=Schema example
+---?code=assets/gql/schema1.gql&title=Schema example
 
----?code=assets/queries.gql&title=Query example
+---?code=assets/gql/queries.gql&title=Query example
 
----?code=assets/queries.json&title=Query response
+---?code=assets/json/queries.json&title=Query response
 
----?code=assets/mutations.gql&title=Mutation example
+---?code=assets/gql/mutations.gql&title=Mutation example
 
----?code=assets/mutations.json&title=Mutation response
+---?code=assets/json/mutations.json&title=Mutation response
 
----?code=assets/interfaces.gql&title=Interfaces
+---?code=assets/gql/interfaces.gql&title=Interfaces
 
 ---
 
-## Let's code!
+## Deep into an example
 
 Create a **GraphQL server** which serves data from a **MySQL database** and a **in-memory map**.
 
@@ -71,76 +71,72 @@ Then create a **React app** which shows a dropdown and a button to trigger a mut
 
 ---?code=assets/pullandrunsql.sh&title=Get some SQL data
 
----?image=assets/employees-schema.png&size=80% 80%&title=Schema
+---?image=assets/images/employees-schema.png&size=80% 80%&title=Schema
 
----?code=assets/project1.txt&title=Init the project
+---?code=assets/textes/project1.txt&title=Init the project
 
----?code=assets/project2.txt&title=Install next.js and React
+---?code=assets/textes/project2.txt&title=Install next.js and React
 
----?code=assets/package1.json
+---?code=assets/json/package1.json
 
----?code=assets/index1.js&title=The index page
+---?code=assets/js/index1.js&title=The index page
 
----?code=assets/project3.txt&title=Let's run it
+---?code=assets/textes/project3.txt&title=Let's run it
 
----?image=assets/screen1.png&size=80% 80%&title=UI (1)
+---?image=assets/images/screen1.png&size=80% 80%&title=UI (1)
 
----?code=assets/schema2.gql&title=Schema (1)
+---?code=assets/gql/schema2.gql&title=Schema (1)
 
----?code=assets/project4.txt&title=Install Express and Apollo
+---?code=assets/textes/project4.txt&title=Install Express and Apollo
 
----?code=assets/server1.js&title=Basic server
+---?code=assets/js/server1.js&title=Basic server
 
----?code=assets/project5.txt
+---?code=assets/textes/project5.txt
 
----?code=assets/package2.json
+---?code=assets/json/package2.json
 
----?image=assets/screen2.png&size=80% 80%&title=Server (1)
+---?image=assets/images/screen2.png&size=80% 80%&title=Server (1)
 
----?code=assets/project6.txt
+---?code=assets/textes/project6.txt
 
----?code=assets/mysqlConnection.js&title=Mysql Connection
+---?code=assets/js/mysqlConnection.js&title=Mysql Connection
 
----?code=assets/resolvers1.js
+---?code=assets/js/resolvers1.js
 
----?code=assets/server2.js
+---?code=assets/js/server2.js
 
----?image=assets/screen3.png&size=80% 80%&title=Query (1)
+---?image=assets/images/screen3.png&size=80% 80%&title=Query (1)
 
----?code=assets/schema3.gql
+---?code=assets/gql/schema3.gql
 
----?code=assets/resolvers2.js
+---?code=assets/js/resolvers2.js
 
----?image=assets/screen4.png&size=80% 80%&title=Query (2)
+---?image=assets/images/screen4.png&size=80% 80%&title=Query (2)
 
----?code=assets/schema4.gql
+---?code=assets/gql/schema4.gql
 
----?code=assets/resolvers3.js
+---?code=assets/js/resolvers3.js
 
----?image=assets/screen5.png&size=80% 80%&title=Query (3)
+---?image=assets/images/screen5.png&size=80% 80%&title=Query (3)
 
----?image=assets/screen6.png&size=80% 80%&title=Mutation
+---?image=assets/images/screen6.png&size=80% 80%&title=Mutation
 
----?image=assets/screen7.png&size=80% 80%&title=Query (4)
+---?image=assets/images/screen7.png&size=80% 80%&title=Query (4)
 
----?code=assets/resolvers4.js
+---?code=assets/js/resolvers4.js
 
----?image=assets/screen8.png&size=80% 80%&title=Query (5)
+---?image=assets/images/screen8.png&size=80% 80%&title=Query (5)
 
----?code=assets/project7.txt
+---?code=assets/js/client.js
 
----?code=assets/next.config.js&lang=js&title=Manage CSS
+---?code=assets/js/index2.js
 
----?code=assets/_app1.js&title=Root app override
+---
 
----?code=assets/project8.txt
+## Code time
 
----?code=assets/withApollo1.js&title=Apollo HOC
+---?code=assets/js/withApollo.js
 
----?code=assets/_app2.js&title=Inject Apollo client
+---?code=assets/js/my_app.js
 
----?code=assets/index2.js
-
----?code=assets/EmployeesDropdown1.js
-
----?image=assets/screen9.png&size=80% 80%&title=UI (2)
+---?code=assets/js/EmployeesDropdown_alt.js

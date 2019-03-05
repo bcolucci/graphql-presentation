@@ -1,3 +1,4 @@
+# src/schema.gql
 enum Gender {
   M
   F

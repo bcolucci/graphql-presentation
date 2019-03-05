@@ -1,0 +1,4 @@
+$ npm install --save \
+  express \
+  graphql \
+  apollo-server-express

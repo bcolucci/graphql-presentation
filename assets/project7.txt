@@ -1,8 +1,0 @@
-$ npm install --save reactstrap bootstrap @zeit/next-css
-
-[...]
-+ bootstrap@4.3.1
-+ reactstrap@7.1.0
-+ @zeit/next-css@1.0.1
-added 54 packages from 84 contributors and audited 7219 packages in 7.618s
-found 0 vulnerabilities

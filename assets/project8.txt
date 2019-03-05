@@ -1,7 +1,0 @@
-$ npm install --save apollo-boost next-with-apollo
-
-[...]
-+ next-with-apollo@3.3.2
-+ apollo-boost@0.3.1
-added 20 packages from 46 contributors and audited 7334 packages in 7.206s
-found 0 vulnerabilities
