@@ -73,7 +73,7 @@ Then create a **React app** which shows a dropdown and a button to trigger a mut
 
 ---
 
-## Schema
+## Schema (part of...)
 
 ![](assets/images/employees-schema.png)
 
@@ -89,8 +89,6 @@ Then create a **React app** which shows a dropdown and a button to trigger a mut
 
 ---
 
-## UI (1)
-
 ![](assets/images/screen1.png)
 
 ---?code=assets/gql/schema2.gql&title=Schema (1)
@@ -100,8 +98,6 @@ Then create a **React app** which shows a dropdown and a button to trigger a mut
 ---?code=assets/js/server1.js&title=Basic server
 
 ---
-
-## Server (1)
 
 ![](assets/images/screen2.png)
 
@@ -161,9 +157,11 @@ Then create a **React app** which shows a dropdown and a button to trigger a mut
 
 ## Code time
 
+---
+
 ## HOC / Provider
 
----?code=assets/js/withApollo.js&Apollo HOC
+---?code=assets/js/withApollo.js&title=Apollo HOC
 
 ---?code=assets/js/my_app.js&title=Next.js App Override
 
