@@ -2,6 +2,8 @@
 
 // [...]
 
+// employees(offset: Int, limit: Int): [Employee!]!
+
 module.exports = {
   Query: {
     employees: async (_, { offset, limit }) => {

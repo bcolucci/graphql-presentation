@@ -113,13 +113,13 @@ Then create a **React app** which shows a dropdown and a button to trigger a mut
 
 ---?code=assets/js/mysqlConnection.js&title=Mysql Connection
 
----?code=assets/js/resolvers1.js
+---?code=assets/js/resolvers1.js&title=Resolve employees
 
----?code=assets/js/server2.js
+---?code=assets/js/resolvers12.js&title=Resolve Employee's title
+
+---?code=assets/js/server2.js&title=Integrate Apollo with Express
 
 ---
-
-## Query (1)
 
 ![](assets/images/screen3.png)
 
@@ -129,8 +129,6 @@ Then create a **React app** which shows a dropdown and a button to trigger a mut
 
 ---
 
-## Query (2)
-
 ![](assets/images/screen4.png)
 
 ---?code=assets/gql/schema4.gql&title=views definition
@@ -139,31 +137,23 @@ Then create a **React app** which shows a dropdown and a button to trigger a mut
 
 ---
 
-## Query (3)
-
 ![](assets/images/screen5.png)
 
 ---
-
-## Mutation
 
 ![](assets/images/screen6.png)
 
 ---
 
-## Query (4)
-
 ![](assets/images/screen7.png)
 
----?code=assets/js/resolvers4.js
+---?code=assets/js/resolvers4.js&title=Pagination
 
 ---
 
-## Query (5)
-
 ![](assets/images/screen8.png)
 
----?code=assets/js/client.js
+---?code=assets/js/client.js&title=Apollo client
 
 ---?code=assets/js/index2.js
 
@@ -171,8 +161,10 @@ Then create a **React app** which shows a dropdown and a button to trigger a mut
 
 ## Code time
 
----?code=assets/js/withApollo.js
+## HOC / Provider
 
----?code=assets/js/my_app.js
+---?code=assets/js/withApollo.js&Apollo HOC
 
----?code=assets/js/EmployeesDropdown_alt.js
+---?code=assets/js/my_app.js&title=Next.js App Override
+
+---?code=assets/js/EmployeesDropdown_alt.js&title=Apollo HOC Query

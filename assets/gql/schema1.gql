@@ -1,5 +1,16 @@
-type User { ... }
-enum Role { ... }
+enum Role {
+  ADMIN
+  MEMBER
+}
+
+type User {
+  email: String!
+  salt: String!
+  password: String!
+  role: Role!
+  deleted: Boolean!
+  friends: [User!]!
+}
 
 type Query {
   users: [User!]!

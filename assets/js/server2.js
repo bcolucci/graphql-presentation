@@ -4,11 +4,11 @@ const { readFileSync } = require('fs')
 const { ApolloServer, gql } = require('apollo-server-express')
 const resolvers = require('./resolvers')
 
-const typeDefs = gql(readFileSync('./schema.gql', { encoding: 'utf-8' }))
+const schema = readFileSync('./schema.gql', { encoding: 'utf-8' })
+
+const gqlServer = new ApolloServer({ typeDefs: gql(schema), resolvers })
 
 const app = express()
-
-const server = new ApolloServer({ typeDefs, resolvers })
-server.applyMiddleware({ app })
+gqlServer.applyMiddleware({ app })
 
 app.listen(4000)
