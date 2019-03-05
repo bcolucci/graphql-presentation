@@ -71,7 +71,11 @@ Then create a **React app** which shows a dropdown and a button to trigger a mut
 
 ---?code=assets/pullandrunsql.sh&title=Get some SQL data
 
----?image=assets/images/employees-schema.png&size=80% 80%&title=Schema
+---
+
+## Schema
+
+![](assets/images/employees-schema.png)
 
 ---?code=assets/textes/project1.txt&title=Init the project
 
@@ -83,7 +87,11 @@ Then create a **React app** which shows a dropdown and a button to trigger a mut
 
 ---?code=assets/textes/project3.txt&title=Let's run it
 
----?image=assets/images/screen1.png&size=80% 80%&title=UI (1)
+---
+
+## UI (1)
+
+![](assets/images/screen1.png)
 
 ---?code=assets/gql/schema2.gql&title=Schema (1)
 
@@ -91,11 +99,15 @@ Then create a **React app** which shows a dropdown and a button to trigger a mut
 
 ---?code=assets/js/server1.js&title=Basic server
 
+---
+
+## Server (1)
+
+![](assets/images/screen2.png)
+
 ---?code=assets/textes/project5.txt
 
 ---?code=assets/json/package2.json
-
----?image=assets/images/screen2.png&size=80% 80%&title=Server (1)
 
 ---?code=assets/textes/project6.txt
 
@@ -105,27 +117,51 @@ Then create a **React app** which shows a dropdown and a button to trigger a mut
 
 ---?code=assets/js/server2.js
 
----?image=assets/images/screen3.png&size=80% 80%&title=Query (1)
+---
 
----?code=assets/gql/schema3.gql
+## Query (1)
 
----?code=assets/js/resolvers2.js
+![](assets/images/screen3.png)
 
----?image=assets/images/screen4.png&size=80% 80%&title=Query (2)
+---?code=assets/gql/schema3.gql&title=full_name definition
 
----?code=assets/gql/schema4.gql
+---?code=assets/js/resolvers2.js&title=full_name resolver
 
----?code=assets/js/resolvers3.js
+---
 
----?image=assets/images/screen5.png&size=80% 80%&title=Query (3)
+## Query (2)
 
----?image=assets/images/screen6.png&size=80% 80%&title=Mutation
+![](assets/images/screen4.png)
 
----?image=assets/images/screen7.png&size=80% 80%&title=Query (4)
+---?code=assets/gql/schema4.gql&title=views definition
+
+---?code=assets/js/resolvers3.js&title=views resolver
+
+---
+
+## Query (3)
+
+![](assets/images/screen5.png)
+
+---
+
+## Mutation
+
+![](assets/images/screen6.png)
+
+---
+
+## Query (4)
+
+![](assets/images/screen7.png)
 
 ---?code=assets/js/resolvers4.js
 
----?image=assets/images/screen8.png&size=80% 80%&title=Query (5)
+---
+
+## Query (5)
+
+![](assets/images/screen8.png)
 
 ---?code=assets/js/client.js
 

@@ -1,15 +1,9 @@
 {
-  "name": "src",
+  "name": "gql-example",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "start": "concurrently 'node server' 'next'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "concurrently 'node server' 'next'"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "apollo-server-express": "^2.4.8",
     "concurrently": "^4.1.0",
