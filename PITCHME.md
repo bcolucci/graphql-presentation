@@ -68,10 +68,10 @@ GraphQL is a **language specification**, not a lib/framework. There are some imp
 
 _fieldName(obj, args, context, info) { result }_
 
-* @size[0.5em](obj: The object that contains the result returned from the resolver on the parent field, or, in the case of a top-level Query field, the rootValue passed from the server configuration. This argument enables the nested nature of GraphQL queries.)
-* @size[0.5em](args: An object with the arguments passed into the field in the query. For example, if the field was called with author(name: "Ada"), the args object would be: { "name": "Ada" }.)
-* @size[0.5em](context: This is an object shared by all resolvers in a particular query, and is used to contain per-request state, including authentication information, dataloader instances, and anything else that should be taken into account when resolving the query. If you’re using Apollo Server, read about how to set the context in the setup documentation.)
-* @size[0.5em](info: This argument should only be used in advanced cases, but it contains information about the execution state of the query, including the field name, path to the field from the root, and more. It’s only documented in the GraphQL.js source code.)
+@size[0.5em](* obj: The object that contains the result returned from the resolver on the parent field, or, in the case of a top-level Query field, the rootValue passed from the server configuration.)
+@size[0.5em](* args: An object with the arguments passed into the field in the query.)
+@size[0.5em](* context: This is an object shared by all resolvers in a particular query, and is used to contain per-request state, including authentication information, dataloader instances, and anything else that should be taken into account when resolving the query.)
+@size[0.5em](* info: This argument should only be used in advanced cases, but it contains information about the execution state of the query, including the field name, path to the field from the root, and more.)
 
 ---
 
@@ -79,7 +79,7 @@ _fieldName(obj, args, context, info) { result }_
 
 Data sources/loader, connector etc...
 
-@size[0.5em](_Encapsulate fetching data from a particular service, with built-in support for caching, deduplication, and error handling. You write the code that is specific to interacting with your backend._)
+_Encapsulate fetching data from a particular service, with built-in support for caching, deduplication, and error handling. You write the code that is specific to interacting with your backend._
 
 ---
 
