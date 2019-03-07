@@ -18,7 +18,7 @@ const employeesQuery = limit => gql`
 `
 
 const incrementViewsQuery = () => gql`
-  mutation IncrementViews($emp_no: Int!) {
+  mutation incrementViews($emp_no: Int!) {
     incViews(emp_no: $emp_no)
   }
 `
