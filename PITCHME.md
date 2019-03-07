@@ -44,10 +44,11 @@ GraphQL is a **language specification**, not a lib/framework. There are some imp
 
 ---
 
-## Server: tow things only to do
+## Server: only three things
 
-1. Defining the @color[#e71e60](schema)
-2. Defining the @color[#e71e60](resolvers): Layer between the schema and data.
+1. Define the @color[#e71e60](schema) ()
+2. (Optional) Define the @color[#e71e60](connectors)
+3. Defining the @color[#e71e60](resolvers): Layer between schema/connectors
 
 ---?code=assets/gql/schema1.gql&title=Schema example
 
