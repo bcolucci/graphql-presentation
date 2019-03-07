@@ -191,4 +191,4 @@ Then create a **React app** which shows a dropdown and a button to trigger a mut
 
 ---?code=assets/js/my_app.js&title=Next.js App Override
 
----?code=assets/js/EmployeesDropdown_alt.js&title=Apollo HOC Query
+---?code=assets/js/EmployeesDropdown_alt.js&title=Final component
