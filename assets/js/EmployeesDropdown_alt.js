@@ -1,6 +1,9 @@
 import { useState } from 'react'
-import { Query } from 'react-apollo'
+import { Query, Mutation } from 'react-apollo'
 import gql from 'graphql-tag'
+
+const MIN_LIMIT = 5
+const MAX_LINIT = 20
 
 const employeeLabel = ({ views, full_name }) => `(${views}) ${full_name}`
 
@@ -12,6 +15,12 @@ const employeesQuery = limit => gql`
     views
   }
 }
+`
+
+const incrementViewsQuery = () => gql`
+  mutation IncrementViews($emp_no: Int!) {
+    incViews(emp_no: $emp_no)
+  }
 `
 
 export default props => {
@@ -37,20 +46,29 @@ export default props => {
               ))}
             </select>
             <button
-              onClick={() => setLimit(Math.max(5, limit - 5))}
-              disabled={limit === 5}
+              onClick={() => setLimit(Math.max(MIN_LIMIT, limit - 5))}
+              disabled={limit === MIN_LIMIT}
             >
               Show less
             </button>
             <button
-              onClick={() => setLimit(Math.min(20, limit + 5))}
-              disabled={limit === 20}
+              onClick={() => setLimit(Math.min(MAX_LINIT, limit + 5))}
+              disabled={limit === MAX_LINIT}
             >
               Show more
             </button>
-            <button onClick={incrementView} disabled={!selected}>
-              Increment views
-            </button>
+            <Mutation query={incrementViewsQuery()}>
+              {incrementViews => (
+                <button
+                  onClick={() =>
+                    incrementViews({ variables: { emp_no: selected } })
+                  }
+                  disabled={!selected}
+                >
+                  Increment views
+                </button>
+              )}
+            </Mutation>
           </Fragment>
         )
       }}
