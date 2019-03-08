@@ -89,6 +89,36 @@ _Encapsulate fetching data from a particular service, with built-in support for 
 
 ---
 
+## Metafields
+
+![](assets/images/metafields.png)
+
+---
+
+## Fragments
+
+![](assets/images/fragments.png)
+
+---
+
+## Fragments variables
+
+![](assets/images/fragvars.png)
+
+---
+
+## Inline fragments
+
+![](assets/images/inline-fragments.png)
+
+---
+
+## Directives
+
+![](assets/images/directives.png)
+
+---
+
 ## Deep into an example
 
 Create a **GraphQL server** which serves data from a **MySQL database** and a **in-memory map**.
